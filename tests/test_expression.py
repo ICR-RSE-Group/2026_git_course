@@ -17,6 +17,6 @@ def test_every_sample_survives_the_join():
     counts = pd.read_csv("data/counts.csv")
     clinical = pd.read_csv("data/clinical.csv")
     merged = counts.merge(clinical, on="sample_id")
-    assert len(merged) == len(counts), (
-        f"{len(counts) - len(merged)} samples were dropped by the join"
-    )
+    # Compare plain numbers so a failure prints "45 == 60", not two whole tables.
+    n_counts, n_merged = len(counts), len(merged)
+    assert n_merged == n_counts, f"{n_counts - n_merged} samples were dropped by the join"
