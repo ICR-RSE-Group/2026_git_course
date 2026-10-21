@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Course question
+    url: https://github.com/ICR-RSE-Group/2026_git_course/discussions
+    about: Questions about the course rather than this repo
