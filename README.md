@@ -39,8 +39,9 @@ Everything happens in **your own copy**: its Issues, its branches, its pull requ
    assign it to yourself.
 2. On the issue page, click **Create a branch**. Fix it, commit, push.
 3. Open a pull request with `Closes #N` in the body.
-4. Invite your partner (Settings → Collaborators) and request their review — at
-   least one line comment and one suggested change. Merge once they approve.
+4. Explore the review tools on it: a line comment and a suggested change in
+   **Files changed**, and the test results in **Checks**. Then merge it and watch
+   the issue close.
 
 Want more? The [course repo's issues](https://github.com/ICR-RSE-Group/2026_git_course/issues) are a list of real bugs in
 this script. Copy one into your own Issues and fix it the same way:
