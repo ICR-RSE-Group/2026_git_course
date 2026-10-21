@@ -15,19 +15,10 @@ git config --global pull.rebase false      # merge on pull; least surprising
 ## Start
 
 ```bash
-git clone https://github.com/USER/REPO.git    # copy an existing repo
+git clone git@github.com:USER/REPO.git    # copy an existing repo
 cd REPO
 
 git init                                  # or: put an existing folder under git
-```
-
-## Sign in to GitHub from git (once per laptop)
-
-GitHub does not accept your password from git. Use Git Credential Manager
-(included in Git for Windows; on a Mac: `brew install --cask git-credential-manager`):
-
-```bash
-git credential-manager github login   # opens the browser; sign in, Authorize
 ```
 
 ## Put an existing folder on GitHub
@@ -41,7 +32,7 @@ git add .
 git commit -m "Initial commit"
 
 # on GitHub: + → New repository, leave it completely empty, then:
-git remote add origin https://github.com/USER/REPO.git
+git remote add origin git@github.com:USER/REPO.git
 git branch -M main
 git push -u origin main
 ```
