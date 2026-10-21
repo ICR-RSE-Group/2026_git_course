@@ -21,6 +21,22 @@ cd REPO
 git init                                  # or: put an existing folder under git
 ```
 
+## Put an existing folder on GitHub
+
+Write the `.gitignore` **before** the first commit, then:
+
+```bash
+git init
+git status                                # check data/ is NOT listed
+git add .
+git commit -m "Initial commit"
+
+# on GitHub: + → New repository, leave it completely empty, then:
+git remote add origin git@github.com:USER/REPO.git
+git branch -M main
+git push -u origin main
+```
+
 ## The loop you will use every day
 
 ```bash
