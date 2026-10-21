@@ -159,4 +159,4 @@ reconstruct from its log is a run you cannot reproduce."
 echo
 echo "Done. Now, in the repo settings:"
 echo "  - Settings > General > check 'Template repository'"
-echo "  - Settings > General > Features > enable Issues and Discussions"
+echo "  - Settings > General > Features > enable Issues"
