@@ -3,7 +3,7 @@
 A deliberately imperfect analysis repo, for the **Version control in GitHub** session
 of the ICR Reproducible Software Development course.
 
-Fork it, break it, fix it. Your fork is yours to keep.
+Copy it, break it, fix it. Your copy is yours to keep.
 
 ## What's in here
 
@@ -18,6 +18,9 @@ CHEATSHEET.md            every git command from the session
 
 ## Getting started
 
+Click **Use this template → Create a new repository** (top right on GitHub), name
+it `2026_git_course`, keep it **Public**, and create it. Then, from *your* copy:
+
 ```bash
 git clone git@github.com:YOUR-USERNAME/2026_git_course.git
 cd 2026_git_course
@@ -25,16 +28,23 @@ pip install -r requirements.txt
 python analysis/expression.py
 ```
 
-It will not work first time. **That is the point** — issue #1 is about exactly that.
+It will not work first time. **That is the point** — the first issue on the
+[course repo](https://github.com/ICR-RSE-Group/2026_git_course/issues/1) is about exactly that.
 
 ## How to take part
 
-1. Pick an issue from the [Issues tab](../../issues) and assign it to yourself.
-   - New to git? Look for `good first issue`.
-   - Comfortable already? Look for `stretch`.
-2. Make a branch, fix it, push, open a pull request with `Closes #N` in the body.
-3. Review your partner's pull request — at least one line comment and one
-   suggested change.
+Everything happens in **your own copy**: its Issues, its branches, its pull requests.
+
+1. Open an issue in your copy — in the session, "Ignore the outputs/ folder" — and
+   assign it to yourself.
+2. On the issue page, click **Create a branch**. Fix it, commit, push.
+3. Open a pull request with `Closes #N` in the body.
+4. Invite your partner (Settings → Collaborators) and request their review — at
+   least one line comment and one suggested change. Merge once they approve.
+
+Want more? The [course repo's issues](https://github.com/ICR-RSE-Group/2026_git_course/issues) are a list of real bugs in
+this script. Copy one into your own Issues and fix it the same way:
+`good first issue` if you are new to git, `stretch` if you are not.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the details.
 
